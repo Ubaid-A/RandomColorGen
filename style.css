@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    transition: 2s;
 }
 
 .main-div{
@@ -16,9 +16,8 @@ body{
 }
 
 .container{
-    width: 350px;
-    height: 250px;
-    background-color: aquamarine;
+    width: 30rem;
+    background-color: rgb(187, 184, 184);
     border-radius: 10px;
     margin: 0 auto;
     display: flex;
@@ -34,7 +33,10 @@ h1{
 }
 button{
     width: 100%;
+    margin: 5px;
     padding: 8px;
+    background-color: black;
+    color: white;
     border-radius: 10px;
     border: none;
     outline: none;
